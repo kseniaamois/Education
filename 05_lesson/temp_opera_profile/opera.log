@@ -1,0 +1,51 @@
+[12544:10748:0611/033123.051:INFO:chrome_main_delegate.cc(766)] This is Opera version 119.0.5497.78
+[12544:10748:0611/033123.685:WARNING:prefs_data_provider.cc(149)] location.country_from_server is not registered.
+[12544:10748:0611/033123.685:WARNING:prefs_data_provider.cc(149)] ui.show_emojis_on_tabs is not registered.
+[12544:13820:0611/033123.712:ERROR:partner_bookmarks_utils.cc(268)] Unable to read partner speeddials file.
+[16180:13148:0611/033123.787:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[12544:10748:0611/033128.529:ERROR:input_translator_internal.cc(277)] Wrong definition of keybinding.
+[12544:10748:0611/033128.529:ERROR:input_datastore.cc(370)] Keybinding Shift+/ used for both command Find and Find
+[12544:10748:0611/033128.827:WARNING:prefs_data_provider.cc(91)] location.country_from_server is not registered.
+[12544:10748:0611/033128.827:WARNING:prefs_data_provider.cc(91)] ui.show_emojis_on_tabs is not registered.
+[12544:10748:0611/033129.452:ERROR:wallpapers_private_api.cc(830)] Currently selected Wallpaper is not among installed Wallpapers. mods/ffeocbomcpokpmjkkloomhnflpjmkjpi/gx_01
+[12544:10748:0611/033129.454:ERROR:wallpapers_private_api.cc(830)] Currently selected Wallpaper is not among installed Wallpapers. mods/ffeocbomcpokpmjkkloomhnflpjmkjpi/gx_01
+[12544:10748:0611/033129.467:INFO:CONSOLE(8)] "<link rel=preload> has an invalid `href` value", source: https://www.opera.com/ru/gx (8)
+[12544:10748:0611/033129.582:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[12544:10748:0611/033129.605:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[12544:10748:0611/033130.003:INFO:CONSOLE(17)] "[hooks.client] Build: corner-desktop@6.36.0+15572.8b97feaae3 - production undefined", source: https://v6.gxcorner.games/_app/immutable/entry/app.BPuOuPNt.js (17)
+[12544:10748:0611/033130.266:ERROR:CONSOLE(2)] "Uncaught (in promise) Error: Wallpaper not found.", source: chrome://startpage/main.js (2)
+[12544:10748:0611/033130.283:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: No tab with id: 1176976902.", source: chrome://startpage/ (0)
+[12544:10748:0611/033130.284:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[12544:10748:0611/033130.286:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[12544:10748:0611/033130.351:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+[12544:10748:0611/033130.357:INFO:CONSOLE(8)] "<link rel=preload> has an invalid `href` value", source: https://www.opera.com/ru/gx (8)
+[12544:10748:0611/033130.659:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'getProduct')", source: https://v6.gxcorner.games/_app/immutable/chunks/Dh3jI2I8.js (1)
+[2788:17516:0611/033131.768:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -200
+[2788:17516:0611/033132.023:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -200
+[2788:17516:0611/033132.145:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -200
+[12544:10748:0611/033135.558:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[12544:10748:0611/033135.625:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://rich-wallpaper/ (0)
+[12544:10748:0611/033135.636:ERROR:wallpapers_private_api.cc(830)] Currently selected Wallpaper is not among installed Wallpapers. mods/ffeocbomcpokpmjkkloomhnflpjmkjpi/gx_01
+[12544:10748:0611/033135.645:ERROR:CONSOLE(2)] "Error: Wallpaper not found.", source: chrome://rich-wallpaper/main.js (2)
+[12544:10748:0611/033135.646:ERROR:CONSOLE(2)] "Uncaught (in promise) Error: Wallpaper not found.", source: chrome://rich-wallpaper/main.js (2)
+[12544:10748:0611/033136.220:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[2788:17516:0611/033153.047:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033153.062:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033153.125:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033153.332:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033153.334:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033153.498:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033212.408:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033212.410:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033212.486:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033212.673:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033212.705:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033212.835:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[12544:10748:0611/033223.668:WARNING:protocol_impl.cc(302)] Couldn't add the installation info.
+[2788:17516:0611/033231.798:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033231.800:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033231.866:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033232.219:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033313.118:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2788:17516:0611/033313.118:ERROR:ssl_client_socket_impl.cc(880)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5132:3796:0611/033323.775:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
