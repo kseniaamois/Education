@@ -31,15 +31,14 @@ def test_capitalize_positive(input_str, expected):
         ("", ""),
         ("   ", "   "),
         ("123abc", "123abc"),
-        (None, None),
     ],
 )
 def test_capitalize_negative(input_str, expected):
-    if input_str is None:
-        with pytest.raises(AttributeError):
-            string_utils.capitalize(input_str)
-    else:
-        assert string_utils.capitalize(input_str) == expected
+    assert string_utils.capitalize(input_str) == expected
+
+def test_capitalize_none():
+    with pytest.raises(AttributeError):
+        string_utils.capitalize(None)
 
 
 # --- Тесты для trim ---
@@ -69,15 +68,14 @@ def test_trim_positive(input_str, expected):
     [
         ("", ""),
         ("    ", ""),
-        (None, None),
     ],
 )
 def test_trim_negative(input_str, expected):
-    if input_str is None:
-        with pytest.raises(AttributeError):
-            string_utils.trim(input_str)
-    else:
-        assert string_utils.trim(input_str) == expected
+    assert string_utils.trim(input_str) == expected
+
+def test_trim_none():
+    with pytest.raises(AttributeError):
+        string_utils.trim(None)
 
 
 # --- Тесты для contains ---
