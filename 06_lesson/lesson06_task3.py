@@ -5,28 +5,20 @@ from selenium.webdriver.support.ui import WebDriverWait
 driver = webdriver.Chrome()
 
 try:
-    driver.get(
-        "https://bonigarcia.dev/selenium-webdriver-java/loading-images.html"
-    )
+    driver.get("https://bonigarcia.dev/selenium-webdriver-java/loading-images.html")
 
     wait = WebDriverWait(driver, 30)
 
-    # Ждём, пока в DOM появится минимум 3 картинки
-    wait.until(
-        lambda d: len(d.find_elements(By.TAG_NAME, "img")) >= 3
-    )
+    # Ждем, пока элемент с id="award" появится в DOM
+    wait.until(lambda d: d.find_element(By.ID, "award"))
 
-    # Ждём, пока все картинки будут полностью загружены (complete == true)
-    wait.until(
-        lambda d: d.execute_script(
-            'return Array.from(document.images).every(img => img.complete);'
-        )
-    )
+    # Ждем, пока картинка полностью загрузится (complete == true)
+    wait.until(lambda d: d.execute_script(
+        "return document.getElementById('award').complete && document.getElementById('award').naturalWidth > 0;"
+    ))
 
-    images = driver.find_elements(By.TAG_NAME, "img")
-
-    # Получаем src третьей картинки (индекс 2)
-    src_value = images[2].get_attribute("src")
+    award_img = driver.find_element(By.ID, "award")
+    src_value = award_img.get_attribute("src")
     print(src_value)
 
 finally:

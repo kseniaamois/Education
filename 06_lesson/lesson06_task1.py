@@ -14,19 +14,17 @@ try:
 
     wait = WebDriverWait(driver, 15)
 
-    # Ждём появления текста в зелёной плашке
+    # Ждем, когда в зеленой плашке появится нужный текст
     green_box = wait.until(
-        EC.visibility_of_element_located(
-            (By.XPATH,
-             "//p[contains(text(), 'Data loaded with AJAX get request.')]")
+        EC.text_to_be_present_in_element(
+            (By.CLASS_NAME, "bg-success"),
+            "Data loaded with AJAX get request."
         )
     )
 
-    # Кликаем по появившемуся тексту
-    green_box.click()
-
-    # Выводим текст в консоль
-    print(green_box.text)  # Ожидается: Data loaded with AJAX get request.
+    # Получаем сам элемент и его текст
+    green_box_elem = driver.find_element(By.CLASS_NAME, "bg-success")
+    print(green_box_elem.text)
 
 finally:
     driver.quit()
